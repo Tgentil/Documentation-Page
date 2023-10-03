@@ -6,7 +6,7 @@
 
 #### Descrição:
 
-Esta é uma página de documentação técnica criada como parte do curso Responsive Web Design da freeCodeCamp. Ela aborda os principais tópicos relacionados ao desenvolvimento web, como HTML, CSS, JavaScript, frameworks e ferramentas essenciais para um desenvolvedor.
+Esta é uma página de documentação técnica criada como parte do curso Responsive Web Design da freeCodeCamp. Ela aborda os principais tópicos relacionados ao desenvolvimento web, como HTML, CSS, JavaScript, frameworks e ferramentas essenciais para um desenvolvedor. Está página foi criada utilizando apenas HTML e CSS.
 
 #### Características:
 
