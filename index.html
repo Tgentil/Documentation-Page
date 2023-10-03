@@ -1,0 +1,326 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Desenvolvimento Web</title>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	</head>
+	<body>
+		<nav id="navbar">
+			<header>
+				<h1>Desenvolvimento Web</h1>
+			</header>
+			<ul>
+				<li><a class="nav-link" href="#html">HTML</a></li>
+				<li><a class="nav-link" href="#css">CSS</a></li>
+				<li><a class="nav-link" href="#javascript">JavaScript</a></li>
+				<li><a class="nav-link" href="#frameworks">Frameworks</a></li>
+				<li><a class="nav-link" href="#ferramentas">Ferramentas</a></li>
+			</ul>
+		</nav>
+		<main id="main-doc">
+			<section class="main-section" id="html">
+				<header>
+					<h2>HTML</h2>
+				</header>
+				<p>
+					O HTML é a linguagem de marcação padrão para a criação de páginas da
+					web. Ele é responsável pela estruturação e organização do conteúdo do
+					site.
+				</p>
+				<p>
+					O HTML é formado por elementos, que podem conter texto, imagens,
+					vídeos, links, entre outros tipos de conteúdo.
+				</p>
+				<p>Alguns dos principais elementos HTML incluem:</p>
+				<ul>
+					<li>
+						<code>&lt;html&gt;</code>: define o início e o fim do documento
+						HTML
+					</li>
+					<li>
+						<code>&lt;head&gt;</code>: contém informações sobre o documento,
+						como título e links para arquivos CSS e JS
+					</li>
+					<li>
+						<code>&lt;body&gt;</code>: contém o conteúdo do documento, como
+						texto, imagens, vídeos, etc
+					</li>
+					<li>
+						<code>&lt;div&gt;</code>: agrupa elementos relacionados em uma
+						seção do documento
+					</li>
+					<li>
+						<code>&lt;a&gt;</code>: cria um link para outra página ou recurso
+					</li>
+					<li><code>&lt;img&gt;</code>: exibe uma imagem no documento</li>
+				</ul>
+				<code>Exemplo de código HTML:</code>
+				<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Título do Documento&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Título da Página&lt;/h1&gt;
+&lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre
+				>
+			</section>
+			<section class="main-section" id="css">
+				<header>
+					<h2>CSS</h2>
+				</header>
+				<p>
+					O CSS é a linguagem de estilos usada para definir a aparência e o
+					layout das páginas da web. Com o CSS, é possível alterar cores,
+					fontes, tamanhos, espaçamento, posicionamento e muito mais.
+				</p>
+				<p>
+					O CSS é composto por seletores, que definem os elementos que serão
+					estilizados, e declarações, que especificam as propriedades que serão
+					aplicadas a esses elementos.
+				</p>
+				<p>Alguns dos principais seletores CSS incluem:</p>
+				<ul>
+					<li>
+						<code>elemento</code>: seleciona todos os elementos do tipo
+						especificado
+					</li>
+					<li>
+						<code>.classe</code>: seleciona todos os elementos com a classe
+						especificada
+					</li>
+					<li><code>#id</code>: seleciona o elemento com o ID especificado</li>
+					<li>
+						<code>:hover</code>: seleciona um elemento quando o mouse passa
+						sobre ele
+					</li>
+					<li>
+						<code>:nth-child(n)</code>: seleciona o n-ésimo elemento filho de
+						um elemento pai
+					</li>
+				</ul>
+				<p>Algumas das principais propriedades CSS incluem:</p>
+				<ul>
+					<li><code>color</code>: define a cor do texto</li>
+					<li><code>font-size</code>: define o tamanho da fonte</li>
+					<li>
+						<code>margin</code>: define o espaçamento externo de um elemento
+					</li>
+					<li>
+						<code>padding</code>: define o espaçamento interno de um elemento
+					</li>
+					<li>
+						<code>display</code>: define como um elemento é exibido, como
+						bloco ou inline
+					</li>
+					<li>
+						<code>position</code>: define como um elemento é posicionado em
+						relação aos outros elementos na página
+					</li>
+				</ul>
+				<code>Exemplo de código CSS:</code>
+				<pre>
+body {
+background-color: #f2f2f2;
+font-family: Arial, sans-serif;
+}
+
+h1 {
+color: #008080;
+font-size: 2em;
+text-align: center;
+}
+
+p {
+color: #333;
+font-size: 1.2em;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+
+a {
+color: #008080;
+text-decoration: none;
+border-bottom: 2px solid #008080;
+}
+
+button {
+background-color: #008080;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #005a5a;
+}
+</pre
+				>
+			</section>
+			<section class="main-section" id="javascript">
+				<header>
+					<h2>JavaScript</h2>
+				</header>
+				<p>
+					O JavaScript é uma linguagem de programação que permite a criação de
+					interações e animações em páginas da web. Ele é executado no lado do
+					cliente, ou seja, no navegador do usuário.
+				</p>
+				<p>
+					Com o JavaScript, é possível criar funcionalidades como validação de
+					formulários, efeitos visuais, manipulação de elementos da página,
+					entre outros.
+				</p>
+				<p>Algumas das principais características do JavaScript incluem:</p>
+				<ul>
+					<li>Sintaxe simples e fácil de aprender</li>
+					<li>Capacidade de interagir com o HTML e o CSS da página</li>
+					<li>Capacidade de manipular dados e criar lógica de programação</li>
+					<li>Compatibilidade com a maioria dos navegadores modernos</li>
+				</ul>
+				<code>Exemplo de código JavaScript:</code>
+				<pre>
+    function calcular() {
+        var input1 = document.getElementById("input1").value;
+        var input2 = document.getElementById("input2").value;
+        var resultado = input1 * input2;
+            document.getElementById("resultado").innerHTML = resultado;
+    }
+    </pre
+				>
+			</section>
+			<section class="main-section" id="frameworks">
+				<header>
+					<h2>Frameworks</h2>
+				</header>
+				<p>
+					Frameworks são conjuntos de ferramentas e bibliotecas que ajudam a
+					simplificar o desenvolvimento web. Eles fornecem recursos
+					pré-construídos e padronizados para que os desenvolvedores possam se
+					concentrar em criar recursos personalizados para seus projetos.
+				</p>
+				<p>Alguns dos frameworks mais populares incluem:</p>
+				<ul>
+					<li>
+						<a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>:
+						um framework de design responsivo
+					</li>
+					<li>
+						<a href="https://reactjs.org/" target="_blank">React</a>: um
+						framework para construir interfaces de usuário
+					</li>
+					<li>
+						<a href="https://angular.io/" target="_blank">Angular</a>: um
+						framework para construir aplicativos da web escaláveis e dinâmicos
+					</li>
+					<li>
+						<a href="https://vuejs.org/" target="_blank">Vue</a>: um framework
+						progressivo para construir interfaces de usuário
+					</li>
+					<li>
+						<a href="https://laravel.com/" target="_blank">Laravel</a>: um
+						framework PHP para desenvolvimento web rápido e elegante
+					</li>
+				</ul>
+				<p>
+					Cada framework tem sua própria documentação e comunidade de
+					desenvolvedores, tornando mais fácil para os desenvolvedores encontrar
+					ajuda e recursos para seus projetos.
+				</p>
+			</section>
+			<section class="main-section" id="ferramentas">
+				<header>
+					<h2>Ferramentas</h2>
+				</header>
+				<p>
+					Além de frameworks, existem diversas ferramentas que auxiliam o
+					desenvolvimento web, aumentando a produtividade e a qualidade do
+					código.
+				</p>
+				<h3>Editor de código</h3>
+				<p>
+					Um editor de código é uma ferramenta essencial para o desenvolvimento
+					web. Eles fornecem recursos úteis, como destaque de sintaxe, sugestão
+					de código e depuração de erros.
+				</p>
+				<p>Algumas opções populares de editores de código incluem:</p>
+				<ul>
+					<li>
+						<a href="https://code.visualstudio.com/" target="_blank"
+							>Visual Studio Code</a
+						>: um editor de código gratuito e de código aberto da Microsoft
+					</li>
+					<li>
+						<a href="https://www.sublimetext.com/" target="_blank"
+							>Sublime Text</a
+						>: um editor de código comercial com recursos avançados
+					</li>
+					<li>
+						<a href="https://atom.io/" target="_blank">Atom</a>: um editor de
+						código gratuito e de código aberto criado pelo GitHub
+					</li>
+				</ul>
+				<h3>Gerenciador de pacotes</h3>
+				<p>
+					Um gerenciador de pacotes é uma ferramenta que ajuda a gerenciar as
+					dependências do projeto, permitindo que os desenvolvedores instalem,
+					atualizem e removam bibliotecas e ferramentas de forma fácil e
+					automatizada.
+				</p>
+				<p>Algumas opções populares de gerenciadores de pacotes incluem:</p>
+				<ul>
+					<li>
+						<a href="https://www.npmjs.com/" target="_blank">npm</a>: um
+						gerenciador de pacotes para o ecossistema Node.js
+					</li>
+					<li>
+						<a href="https://yarnpkg.com/" target="_blank">Yarn</a>: um
+						gerenciador de pacotes alternativo ao npm, criado pelo Facebook
+					</li>
+				</ul>
+				<h3>Controlador de versão</h3>
+				<p>
+					Um controlador de versão é uma ferramenta que ajuda a gerenciar as
+					mudanças no código-fonte, permitindo que os desenvolvedores rastreiem
+					e revertam alterações, colaborem em equipe e trabalhem em diferentes
+					versões do projeto.
+				</p>
+				<p>Algumas opções populares de controladores de versão incluem:</p>
+				<ul>
+					<li>
+						<a href="https://git-scm.com/" target="_blank">Git</a>: um
+						controlador de versão distribuído e de código aberto, amplamente
+						utilizado na indústria de desenvolvimento de software
+					</li>
+					<li>
+						<a href="https://www.mercurial-scm.org/" target="_blank"
+							>Mercurial</a
+						>: um controlador de versão distribuído e de código aberto,
+						semelhante ao Git
+					</li>
+					<li>
+						<a href="https://subversion.apache.org/" target="_blank"
+							>Subversion</a
+						>: um controlador de versão centralizado, que armazena as versões
+						do código em um único repositório central
+					</li>
+				</ul>
+				<p>
+					Um desenvolvedor web geralmente usa uma combinação dessas ferramentas
+					e frameworks para criar projetos da web de qualidade. É importante
+					lembrar que, ao usar essas ferramentas e frameworks, é necessário ter
+					um bom conhecimento de programação, para que sejam utilizados da forma
+					mais eficiente possível.
+				</p>
+			</section>
+		</main>
+	</body>
+</html>
