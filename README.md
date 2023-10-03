@@ -1,4 +1,8 @@
 ### README: Desenvolvimento Web - Documentação Técnica
+[![GitHub](https://img.shields.io/badge/Visite-Meu%20Perfil-0891B2?style=flat-square&logo=github)](https://github.com/Tgentil)
+[![Website](https://img.shields.io/badge/🌍&nbsp;&nbsp;Visite-Website-4285f4?style=flat-square&logo=globe)](https://tgentil.github.io/Documentation-Page/)
+[![Curso FreeCodeCamp](https://img.shields.io/badge/FreeCodeCamp-Curso-blue?style=flat-square&logo=freecodecamp)](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+
 
 #### Descrição:
 
